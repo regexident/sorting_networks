@@ -1,0 +1,28 @@
+[package]
+authors = ["Vincent Esche <regexident@gmail.com>"]
+categories = [
+    "algorithms",
+]
+description = "An implementation of sorting networks."
+documentation = "https://docs.rs/sorting_networks"
+homepage = "https://github.com/regexident/sorting_networks"
+keywords = [
+    "sorting",
+    "sorting-network",
+    "batcher",
+    "odd-even",
+    "bitonic",
+]
+license = "MPL-2.0"
+name = "sorting_networks"
+readme = "README.md"
+repository = "https://github.com/regexident/sorting_networks"
+version = "0.1.0"
+
+[build-dependencies]
+quote = "0.4.2"
+syn = "0.12.13"
+
+[features]
+default = ["std"]
+std = []
